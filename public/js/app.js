@@ -65819,19 +65819,20 @@ __webpack_require__.r(__webpack_exports__);
 
 
 function Example() {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "container"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "row justify-content-center"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "col-md-8"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "card"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "card-header"
-  }, "Example Component"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "card-body"
-  }, "I'm an example component!")))));
+  return (
+    /*#__PURE__*/
+    // <div className="container">
+    //     <div className="row justify-content-center">
+    //         <div className="col-md-8">
+    //             <div className="card">
+    //                 <div className="card-header">Example a Component</div>
+    //                 <div className="card-body">I'm an example component!</div>
+    //             </div>
+    //         </div>
+    //     </div>
+    // </div>
+    react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "hello")
+  );
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (Example);

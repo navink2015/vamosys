@@ -7,7 +7,10 @@ use Illuminate\Http\Request;
 class userController extends Controller
 {
     public function index()
-    {
-        return view('lesson1');
+    {   
+        
+        return view('blade.contact_page'
+                        
+    );
     }
 }

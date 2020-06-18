@@ -4,3 +4,8 @@
     <h2 class="container text-center">Contact</h2>
    
 @endsection
+
+@section('a')
+    
+    <div id="example"></div>
+@endsection

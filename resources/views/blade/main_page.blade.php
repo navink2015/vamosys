@@ -18,23 +18,23 @@
     
     
         <a href="/about" class="nav-link text-light">About Us</a>
+
+        <a href="/log" class="nav-link text-light">Log In</a>
+
+        <a href="/reg" class="nav-link text-light">Register</a>
    
 </nav>
-
-<div class="container">
-<h1 class="text-center">Main</h1>
-<p>
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio ipsam saepe expedita, provident delectus est consequatur voluptatibus nesciunt quod quidem, sit consectetur animi ea, quisquam pariatur impedit enim! Deserunt, nihil.
-</p>
-</div>
+<br>
+<br>
+    
+<div class="text-center" >@yield('content')</div>
 
 
 
-@yield('content')
 
-<p class="container">
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem ratione amet mollitia odit repellat cumque dolore suscipit, repudiandae debitis facere praesentium deleniti, adipisci dolores fuga, architecto et quibusdam animi iure.
-</p>
 
+
+@yield('a')
 </body>
+<script type="text/javascript" src="js/app.js"></script>
 </html>
